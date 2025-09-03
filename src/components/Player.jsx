@@ -7,7 +7,6 @@ export default function Player({initialName , symbol}){
         setIsEditing((prev)=>!prev);
     }
     function handleChange(event){
-        console.log(event);
         setPlayerName(event.target.value);
     }
 
